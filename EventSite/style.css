@@ -1,0 +1,79 @@
+body{
+	margin:40px auto;
+	max-width:850px;
+	color:#000000;
+	background-color:#dddddd;
+	background-image: url("..."), url("...");
+	background-size: 100% auto, 100% 100%;
+	background-repeat: no-repeat, repeat;
+	font-size:18px;
+	height: 100%;
+}
+form{
+	background-color:#ffffff;
+	margin:0 10px;
+	overflow:hidden;
+	border: 2px outset #ffffff;
+}
+.presentation-sheet{
+	background-color:#ffffff;
+	margin:0 10px;
+	padding:20px 50px;
+	overflow:hidden;
+	border: 2px outset #ffffff;
+	text-align:center;
+	overflow-wrap:break-word;
+}
+.form-field{
+	padding: 10px;
+	line-height:1.5;
+	text-align:center;
+}
+.col{
+	margin:auto;
+	width:55%;
+}
+.col:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.col-align{
+	float:right;
+}
+h1{
+	text-align:center;
+	line-height:1.6;
+	padding:10px 0;
+}
+.submit{
+	padding:20px 0px;
+	text-align:center;
+}
+input[type=text],input[type=tel],input[type=email],input[type=date],input[type=number]{
+	padding:7px 0;
+}
+textarea{
+	width:75%;
+	height:70px;
+	resize:none;
+}
+input[type=submit]{
+	background-color:#4CAF50;
+	color:white;
+	cursor:pointer;
+	border:2px outset #4CAF50;
+	padding: 16px 24px;
+	font-size: 15px;
+}
+input[type=submit]:hover{
+	background-color:#4C8F50;
+	border:2px outset #4C8F50;
+}
+input[type=submit]:focus{
+	border:2px inset #4C8F50;
+}
+footer{
+	margin:20px 0;
+	text-align:center;
+}

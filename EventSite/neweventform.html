@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" >
+	<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+	
+	
+<form name="abfurmeets-newevent" action="newevent.php" method="post" accept-charset="UTF-8">
+<h1>New Event Form</h1>
+<div class="form-field col">
+	<label for="event-name">Event Name: </label>
+	<input class="col-align" id="event-name" name="name" type="text" required />
+</div>
+<div class="form-field col">
+	<label for="event-host">Host Name (you): </label>
+	<input class="col-align" id="event-host" name="host" type="text" required />
+</div>
+<div class="form-field col">
+	<label for="event-date">Date: </label>
+	<input class="col-align" id="event-date" name="date" type="date" required/><br/>
+</div>
+<div class="form-field col">
+	<label for="event-start-time">Starting time (24hr): </label>
+	<input class="col-align" id="event-start-time" name="starttime" type="text" required/> <br/>
+</div>
+<div class="form-field col">
+	<label for="event-end-time">Ending time (24hr): </label>
+	<input class="col-align" id="event-end-time" name="endtime" type=text" required/>
+</div>
+<div class="form-field col">
+	<label for="event-address">Address: </label>
+	<input class="col-align" id="event-address" name="address" type="text" required />
+</div>
+<div class="form-field col">
+  <label for="event-city">City:</label>
+  <input class="col-align" id="event-city" name="city" required />
+</div>
+<div class="form-field">
+	<label for="event-rsvp-enabled">Allow RSVP: </label>
+	<input id="event-rsvp-enabled" name="rsvp" type="checkbox" />
+</div>
+<div class="form-field">
+  <label for="event-over-18">18+: </label>
+  <input id="event-over-18" name="over_18" type="checkbox" />
+</div>
+<div class="form-field">
+	<label for="event-details">Details: </label><br/>
+	<textarea id="event-details" name="details"></textarea><br/>
+</div>
+<div class="submit">
+	<input type="submit" value="Submit">
+</div>
+</form>
+
+<footer>Provided by ?</footer>
+
+</body></html>

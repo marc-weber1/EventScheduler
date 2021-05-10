@@ -1,0 +1,2 @@
+Main-Class: Master
+Class-Path: lib/json-simple-1.1.1.jar lib/mysql-connector-java-8.0.17.jar
